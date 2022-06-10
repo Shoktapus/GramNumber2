@@ -12,7 +12,7 @@ h1 {
     background-color: white;
 }
 section {
-    background-color:  lightgray;
+    background-color:  black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +32,13 @@ section {
 .post-header > h4, p {
     margin: 0;
 }
+.icons {
+    padding: 20px;
+}
 .post-footer {
-   
+
     padding: 10px;
+}
+.paragraph1 {
+    
 }
