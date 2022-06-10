@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+.section-header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    background-color: white;
+}
+section {
+    background-color:  lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.post {
+    background-color: white;
+    margin-top: 40px;
+    width: 400px;
+}
+.post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.post-header > h4, p {
+    margin: 0;
+}
+.post-footer {
+   
+    padding: 10px;
+}
