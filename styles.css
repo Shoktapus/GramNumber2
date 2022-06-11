@@ -1,5 +1,9 @@
 body {
+    height: 725px;
     margin: 0;
+}
+.height {
+    height: 725px;
 }
 .section-header {
     background-color: white;
@@ -15,6 +19,7 @@ section {
     background-color:  black;
     display: flex;
     flex-direction: column;
+    height: inherit;
     justify-content: center;
     align-items: center;
 }
@@ -35,11 +40,11 @@ section {
 .icons { display: flex;
     flex-direction: row;
     padding: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-img {
-    margin-right: 10px
+.icons > i {
+    padding-right: 10px;
 }
 .post-footer {
 
