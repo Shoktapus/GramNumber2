@@ -50,6 +50,7 @@ section {
 
     padding: 10px;
 }
-.paragraph1 {
+p {
+    padding-bottom: 20px;
 
 }
