@@ -32,13 +32,19 @@ section {
 .post-header > h4, p {
     margin: 0;
 }
-.icons {
-    padding: 20px;
+.icons { display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+img {
+    margin-right: 10px
 }
 .post-footer {
 
     padding: 10px;
 }
 .paragraph1 {
-    
+
 }
