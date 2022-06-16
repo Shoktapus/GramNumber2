@@ -1,20 +1,12 @@
 body {
+    font-family: 'Roboto', sans-serif;
     height: 725px;
     margin: 0;
 }
 .height {
     height: 725px;
 }
-.section-header {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-h1 {
-    background-color: white;
-}
+
 section {
     background-color:  black;
     display: flex;
@@ -23,40 +15,55 @@ section {
     justify-content: center;
     align-items: center;
 }
-.post {
+.Entire-Post {
     background-color: white;
     margin-top: 40px;
     width: 420px;
 }
-.post-header {
-    align-items: flex-start;
+.Entire-Header {
+    align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 10px;
+}
+.Five-And-Paragraphs {
+    display: flex;
+    align-items: center;
+}
+.Paragraphs-Only {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 10px;
 }
-.post-header > p {
+.Paragraphs-Only > p {
     margin: 0;
     padding: 0;
 }
-.post-header > i {
+.Paragraphs-Only > i {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    padding-bottom: 20px;
 }
-.icons { display: flex;
+.ellipsis {
+    float: right;
+    padding-top: 18px;
+    padding-right: 10px;
+}
+.icons { 
+    align-items: center;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding: 10px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 1px;
 }
 .icons > i {
     padding-right: 10px;
 }
+
 .post-footer {
 
     padding: 10px;
-}
-p {
-    padding-bottom: 20px;
-
 }
